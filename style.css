@@ -21,9 +21,14 @@ body {
 a{
     text-decoration: none;
 }
+.body_center{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
 .navigation {
     position: relative;
-    inset: 10% 50%;
     margin-top: 50px;
     background-color: var(--ye);
     width: 75px;
